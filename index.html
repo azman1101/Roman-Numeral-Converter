@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by azman1101 (http://jsbin.com/muqosop/4/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <title>Roman Numeral Converter</title>
+  <style type="text/css">
+    .jumbotron{
+      background-color: #7647A2;
+      color: white;
+    }
+
+    .well{
+      color: #555;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="jumbotron">
+  <div class = "container text-center">
+    <br>
+    <h3>Free Code Camp</h3>
+    <h2>Roman Numeral Converter</h2>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">Number</span>
+          <input type="text" id="inputNum" class="form-control" placeholder="42" oninput="convertToRoman()">
+        </div>
+        <br>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="well well-sm">
+          <p id="demo">XLII</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
